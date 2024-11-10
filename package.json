@@ -1,5 +1,5 @@
 {
-  "name": "media-crawler",
+  "name": "media-downloader",
   "private": true,
   "version": "0.0.1",
   "type": "module",
@@ -15,11 +15,14 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@mantine/core": "^7.13.5",
+    "normalize.css": "^8.0.1",
     "react": "^18.3.1",
     "react-dom": "^18.3.1"
   },
   "devDependencies": {
     "@eslint/js": "^9.13.0",
+    "@types/chrome": "^0.0.280",
     "@types/react": "^18.3.12",
     "@types/react-dom": "^18.3.1",
     "@vitejs/plugin-react": "^4.3.3",

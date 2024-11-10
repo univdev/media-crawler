@@ -1,0 +1,16 @@
+{
+  "manifest_version": 3,
+  "name": "media-downloader",
+  "version": "0.0.1",
+  "description": "Get Media files on Website!",
+  "action": {
+    "default_popup": "index.html"
+  },
+  "permissions": [
+    "scripting"
+  ],
+  "host_permissions": [
+    "https://*/*",
+    "http://*/*"
+  ]
+}
